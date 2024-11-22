@@ -107,7 +107,7 @@ a {
     height: 800px;
 }
 
-/* regole footer */
+/* regole footer primo footer */
 .primofooter {
     display: flex;
     align-items: center;
@@ -132,6 +132,34 @@ a {
     margin-bottom: 30px;
 }
 
+/* regole ultimo footer */
+.ultimofooter {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    /* DEBUG */
+    background-color: black;
+    height: 125px;
+}
+.sfondoverde {
+    display: flex;
+    flex-basis: 68%;
+    align-items: center;
+    justify-content: space-between;
+    /* DEBUG */
+    background-color: aquamarine;
+    height: 100px;
+}
+.button {
+    flex-basis: 6%;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    /* DEBUG */
+    background-color: pink;
+    height: 40px;
+    border: dashed 2px black;
+}
 
    
 
