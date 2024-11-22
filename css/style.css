@@ -6,13 +6,14 @@
 /* regole del header */
 header {
     background-color: lightblue;
-    height: 100px;
+    height: 600px;
 }
 
 /* regole del contenitore-header */
 .contenitore-nav {
     display: flex;
     justify-content: center;
+    height: 100px;
     /* margin: 0 20px; */   
 }
 .logo, .nav, .login {
@@ -26,7 +27,7 @@ header {
     background-color: orange;  
 }
 .logo, .login {
-    flex-basis: 10%;
+    flex-basis: 12%;
     padding: 10px;
 }
 .login {
@@ -36,10 +37,7 @@ header {
     justify-content: center;
     align-content: center;
     gap: 10px;
-    flex-basis: 40%;
-    /* DEBUG */
-    height: 60px;
-    
+    flex-basis: 50%;
 }
 a {
     text-decoration: none;
@@ -56,20 +54,37 @@ a {
 }
 
 .jumbo {
-    flex-basis: 48%;
+    flex-basis: 57%;
     /* DEBUG */
     border: dashed 2px black;
     background-color: rgb(225, 131, 238);
     height: 400px;
 }
 
-/* REGOLE MAIN PRIMA PAGINA */
+/* REGOLE MAIN */
 .prima-pagina {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px auto;
     /* DEBUG */
 }
+.pg-grey {
+    display: flex;
+    background-color: rgb(179, 179, 179);
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    height: 600px;
+}
+.pg-grey1 {
+    display: flex;
+    background-color: rgb(179, 179, 179);
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
 .blu {
     flex-basis: 40%;
     /* DEBUG */
@@ -84,6 +99,15 @@ a {
     border: dashed 2px black;
     background-color: rgb(233, 173, 215);
 }
+.verde {
+    flex-basis: 68%;
+    /* DEBUG */
+    border: dashed 2px black;
+    background-color: green;
+    height: 800px;
+}
 
+
+   
 
  
