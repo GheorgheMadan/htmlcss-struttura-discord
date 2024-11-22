@@ -99,12 +99,37 @@ a {
     border: dashed 2px black;
     background-color: rgb(233, 173, 215);
 }
-.verde {
+.verde1 {
     flex-basis: 68%;
     /* DEBUG */
     border: dashed 2px black;
     background-color: green;
     height: 800px;
+}
+
+/* regole footer */
+.primofooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 760px;
+    background-color: black;
+}
+.red {
+    flex-basis: 24%;
+    /* DEBUG */
+    background-color: rgb(252, 127, 127);
+    border: dashed black 2px;
+    height: 700px;
+    margin-bottom: 30px;
+}
+.verde {
+    flex-basis: 11%;
+    /* DEBUG */
+    background-color: rgb(0, 148, 91);
+    border: dashed white 2px;
+    height: 700px;
+    margin-bottom: 30px;
 }
 
 
